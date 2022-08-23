@@ -1,0 +1,22 @@
+.container {
+    background-color: burlywood;
+    height: 90px;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 70%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+.tagfooter{
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    
+    text-align: center;
+    font-family: sans-serif;
+}

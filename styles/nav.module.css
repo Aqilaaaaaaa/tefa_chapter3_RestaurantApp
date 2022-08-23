@@ -1,0 +1,35 @@
+.container {
+    background-color: burlywood;
+    opacity: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.content {
+    letter-spacing: 2px;
+    
+}
+
+.nama {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    text-align: right;
+    align-items: center;
+    
+}
+
+.item {
+    padding: 20px;
+    margin: 20px;
+    justify-content: flex-end;
+    list-style: none;
+}

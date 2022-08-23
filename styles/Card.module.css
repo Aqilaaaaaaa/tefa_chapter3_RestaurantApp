@@ -1,0 +1,66 @@
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  text-align: center;
+  font-family: arial;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  
+}
+
+.tag {
+  text-align: start;
+  background-color: brown;
+  margin-bottom: 20px;
+  border-radius: 10px 10px;
+  height: 40px;
+}
+
+.tagloc {
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.content {
+  text-align: start;
+  color: #666;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.rate {
+  font-size: 18px;
+  font-weight: bold;
+  
+  
+}
+
+.desc {
+  color: #777;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    background-color: brown ;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .rate,
+  .desc {
+    font-size: 24px;
+  }
+}
