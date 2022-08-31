@@ -33,3 +33,62 @@
     justify-content: flex-end;
     list-style: none;
 }
+
+.burgerBtn {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .nama {
+      display: flex;
+      position: absolute;
+      top: 15px;
+      left: 35px;
+    }
+  
+    .menu {
+      display: none; 
+    }
+  
+    .menu li {
+      text-align: center;
+      margin: 0;
+    }
+
+    .menuLink {
+        position: absolute;
+        display: block;
+        list-style: none;
+        top: 4rem;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: #fff;    
+      }
+  
+    .item {
+      border-top: 1px solid #000;
+      text-align: center;
+      margin-right: 0;
+      padding: 20px 0;
+      list-style: none;
+    }
+
+    .burgerBtn {
+        display: block;
+        position: absolute;
+        color: black;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+  
+   
+  
+    
+}  
