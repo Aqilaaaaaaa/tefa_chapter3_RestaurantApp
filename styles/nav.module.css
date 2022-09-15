@@ -52,6 +52,7 @@
   
     .menu {
       display: none; 
+      align-items: center;
     }
   
     .menu li {
@@ -67,7 +68,8 @@
         left: 0;
         width: 100%;
         padding: 10px;
-        background-color: #fff;    
+        background-color: #fff;
+            
       }
   
     .item {
@@ -76,6 +78,7 @@
       margin-right: 0;
       padding: 20px 0;
       list-style: none;
+      align-items: center;
     }
 
     .burgerBtn {
@@ -84,8 +87,9 @@
         color: black;
         border: none;
         outline: none;
-        top: 15px;
+        top: 50px;
         right: 25px;
+        
     }
   
    
